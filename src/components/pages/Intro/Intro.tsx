@@ -1,12 +1,12 @@
-import { BentoGrid } from '../../ui';
-import { IntroWrapper } from './Intro.styles';
 import type { IntroProps } from './types';
+import { BentoGrid } from '../../ui';
+import { gridItems } from './gridItems';
+import { IntroWrapper } from './Intro.styles';
 
 export const Intro = ({}: IntroProps) => {
   return (
     <IntroWrapper>
-      <div>Intro</div>
-      <BentoGrid />
+      <BentoGrid gridItems={gridItems} />
     </IntroWrapper>
   );
 };

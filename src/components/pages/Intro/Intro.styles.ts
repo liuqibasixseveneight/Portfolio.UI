@@ -6,7 +6,6 @@ export const IntroWrapper = styled.div`
   grid-area: intro;
   height: 100%;
   min-height: 100vh;
-  place-content: center;
+  padding: 2rem;
   width: 100%;
 `;
-
