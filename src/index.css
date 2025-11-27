@@ -1,0 +1,41 @@
+/**
+ * Fonts
+ */
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap');
+
+/**
+ * Reset
+ */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+}
+
+:root {
+  font-family: 'Geist Mono', monospace;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /** Colors
+   *
+   * Background: #fdfdfd
+   * Background Secondary: #888
+   * Text: #000
+   * Accent: #d4ff00
+   */
+
+  --color-background: #fdfdfd;
+  --color-background-secondary: #888;
+  --color-text: #000;
+  --color-accent: #d4ff00;
+}
